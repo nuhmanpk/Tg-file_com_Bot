@@ -2,6 +2,10 @@
 
 ## Video Compressor Bot
 
+## HOW TO DEPLOY YOUTUBE TUTORIAL
+
+<a href="https://youtu.be/YEwAN3iTGyE"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
+
 #### The Easy Way
 
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DarkAngelTG/VidComBot)
