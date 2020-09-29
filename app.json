@@ -11,7 +11,7 @@
   ],
   "success_url": "https://telegram.dog/VidComBot",
   "website": "https://t.me/DX_Botz",
-  "repository": "https://github.com/DarkAngelTG/VidComBot",
+  "repository": "https://github.com/Jijinr/VidComBot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
