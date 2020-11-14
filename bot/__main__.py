@@ -60,42 +60,42 @@ if __name__ == "__main__" :
     # START command
     incoming_start_message_handler = MessageHandler(
         incoming_start_message_f,
-        filters=Filters.command([Command.START]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.START]) 
     )
     app.add_handler(incoming_start_message_handler)
     
     # COMPRESS command
     incoming_compress_message_handler = MessageHandler(
         incoming_compress_message_f,
-        filters=Filters.command([Command.COMPRESS]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.COMPRESS]) 
     )
     app.add_handler(incoming_compress_message_handler)
     
     # CANCEL command
     incoming_cancel_message_handler = MessageHandler(
         incoming_cancel_message_f,
-        filters=Filters.command([Command.CANCEL]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.CANCEL]) 
     )
     app.add_handler(incoming_cancel_message_handler)
 
     # MEMEs COMMANDs
     exec_message_handler = MessageHandler(
         exec_message_f,
-        filters=Filters.command([Command.EXEC]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.EXEC]) 
     )
     app.add_handler(exec_message_handler)
     
     # HELP command
     help_text_handler = MessageHandler(
         help_message_f,
-        filters=Filters.command([Command.HELP]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.HELP]) 
     )
     app.add_handler(help_text_handler)
     
     # Telegram command to upload LOG files
     upload_log_f_handler = MessageHandler(
         upload_log_file,
-        filters=Filters.command([Command.UPLOAD_LOG_FILE]) & Filters.chat(chats=AUTH_USERS)
+        filters=Filters.command([Command.UPLOAD_LOG_FILE]) 
     )
     app.add_handler(upload_log_f_handler)
     
