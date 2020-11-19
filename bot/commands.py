@@ -24,11 +24,11 @@ class Command:
     )
     COMPRESS = get_config(
         "COMMAND_COMPRESS",
-        "compress"
+        "compress1"
     )
     CANCEL = get_config(
         "COMMAND_CANCEL",
-        "cancel"
+        "cancel1"
     )
     STATUS = get_config(
         "COMMAND_STATUS",
